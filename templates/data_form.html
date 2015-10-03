@@ -1,0 +1,52 @@
+<html>
+<html>
+  <head>
+        <title>Spider data</title>
+        <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    </head>
+<body>
+
+<h1>Source object Form</h1>
+
+<div class='row'>
+    <div class='container'>
+        <span>Please enter all xpaths.</span>
+        <hr/>
+        <form class='' action="/" method="POST">
+            <div class='form-group' >
+                ALLOWED_DOMAINS:    <input class="form-control" type="text" name= 'ALLOWED_DOMAINS' required>
+                
+                URL:                <input class="form-control" type="text" name='URL' required>
+                
+                SECTION_XPATH:      <input  class="form-control" type="text" name='SECTION_XPATH' required>
+                
+                LINK_XPATH:         <input class="form-control"  type="text" name='LINK_XPATH' required>
+                
+                TITLE_XPATH:        <input class="form-control"type="text" name='TITLE_XPATH' required>
+                
+                DESCRIPTION_XPATH:  <input class="form-control" type="text" name='DESCRIPTION_XPATH' required>
+                
+                DATE_XPATH:         <input class="form-control" type="text" name='DATE_XPATH'>
+                
+                DATE_LOCATION:      <select class="form-control" name="DATE_LOCATION">
+                                            <option value="NA">
+                                                NA
+                                            </option >
+                                            <option value="RP">
+                                                RP
+                                            </option>
+                                            <option value="MP">
+                                                MP
+                                            </option>
+                                    </select>
+                <br />
+            
+            <button class="btn btn-large btn-info" type="submit">Submit</buttton>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
